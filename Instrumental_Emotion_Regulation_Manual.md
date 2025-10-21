@@ -5,20 +5,16 @@
 ## **1. Access and Setup**
 
 ### **Keys and Passwords**
-- Keys are in the **wet lab by the tables** (marked **S5** and **A5**).  
-- **S5 computer password:** `social`  
-- **A5 testing computer password:** `social`  
-- **A5 Biopac computer password:** `cm909`
+- Keys are in the leftmost drawer in the wet lab at the end of the hallway (marked **S5** and **A5**).  
 
 ### **Power On**
-Turn on **all equipment**, including the **Biopac machine**.
-
+Turn on all computers and the Biopac machine.
 ---
 
 ## **2. Experimental Flow Overview**
 
 **Order of Procedure:**
-> Forms → Hook-Up → Slides → Questionnaires → Experiment → Debrief
+> Forms → Walk Through Experiment → Electrode Hook-Up → Questionnaires → Experiment → Debrief
 
 ---
 
@@ -38,38 +34,30 @@ Have the following ready:
 - Payment confirmation form  
 
 #### **Equipment**
-- **EL507A electrodes** – Expiry date: `______/______/______`  
-- **EL503 electrodes** – Expiry date: `______/______/______`  
-- **BIOPAC isotonic GEL104** – confirm it’s available in the room  
+- **EL507A electrodes**  
+- **EL503 electrodes** 
+- **Spectra Electrode Gel** – confirm it’s available in the room
+- **BIOPAC isotonic GEL101a** – confirm it’s available in the room    
 
 #### **Software**
-1. **Open PsychoPy experiment**
+1. **Open PsychoPy experiment in the Stimulus PC**
    - Set **condition order** and **stimuli groups** according to the **project tracking sheet**.
 2. **Open Biopac application** on the **recording computer**:
-   - Create or record a **new experiment**.
-   - Open the **graph template**:
+   - Open File from Disk -> 
      ```
      Documents/My Documents/Carmen MD Instrumental Ereg/
      instrumental_emotion_reg_template_01.gtl
      ```
-   - Check that all **acquisition channels** are set up correctly.  
-   - If not, refer to the **“Setting-up Acquisition Channels”** document.  
-   - Confirm **acquisition duration** is at least **3 hours**.
-
+3. **Open questionnaire link** -> Chrome -> Bookmarks -> Qualtrics
 ---
 
 ## **4. Participant Arrival**
 
 ### **Before Entering the Testing Cubicle**
 1. Ask the participant to **store belongings in S5**.  
-2. In A5, have them **read and sign** the **information sheet** and **consent form**.  
-3. Check that the **consent form is signed**.  
-4. Ask participant to **tie up hair** (if applicable).  
-5. Go into the testing cubicle while the participant waits in the hall.  
-6. **Set up the PsychoPy experiment** to run.  
-7. Record **Participant ID:** `_________________________`  
-8. Ask participant to **hand over phone** (keep it safe).  
-9. Ask if participant needs to **use the bathroom** (it’s difficult to disconnect/reconnect after setup).
+2. Ask the participant to sit in A5, have them **read and sign** the **information sheet** and **consent form**.  
+3. Check that the **consent form is signed on the back**.  
+4. Ask if participant needs to **use the bathroom** (it’s difficult to disconnect/reconnect after setup).
 
 ---
 
@@ -84,25 +72,15 @@ Have the following ready:
 - If needed, provide **razor** for shaving small areas around electrode sites.  
 - Wrap used razors in **paper and tape** before discarding in **general waste**.
 
-#### **Electrode Placement Options**
-- Participant can either:
-  - Allow researcher to attach electrodes, **or**
-  - Attach electrodes themselves with researcher guidance.
+#### **Electrode Placement**
+- Peel 3 ECG electrodes from the backing and inspect. Add a small amount of additional get if necessary
+- Instruct participant to attch 3 electrodes according to the diagram on the wall
 
-#### **If Researcher is Attaching**
+#### **Attaching Electrode Leads**
 1. **VIN- (white):** under right clavicle, midclavicular line.  
 2. **GND (black):** lower right abdomen.  
 3. **VIN+ (red):** lower left abdomen.  
 4. Secure leads and route through clothing.
-
-#### **If Participant is Attaching**
-- Provide **instruction sheet** and confirm understanding.  
-- Check electrode placement and correct color–lead matching.
-
-#### **Electrode Prep**
-- Peel **BIOPAC EL503 patch** backing.  
-- Add a drop of **GEL104** if dry.  
-- Ensure **SSLB lead** is connected to the correct Biopac MP36 channel.
 
 ---
 
@@ -126,21 +104,20 @@ Have the following ready:
 > “Electrodermal Activity (EDA) is a non-invasive measure of physiological arousal via skin sweat.”
 
 #### **Procedure**
-1. Show **diagram** of electrode placement.  
-2. Identify **non-dominant hand**.  
-3. Attach electrodes to **two fingers** of that hand.  
-4. Ensure proper alignment and connection.  
-5. Have participant place hand **palm down** and remain still.  
+1. Show **diagram** of electrode placement.    
+2. Attach electrodes to first and index finger of left hand.  
+3. Secure with tape
 
 ---
 
 ## **6. Final Pre-Experiment Checks**
-- **Press Play** on Biopac → confirm data is recording.  
+- **Press Play** on Biopac → confirm data is recording.
+- Perform signal quality checks according to SOP guidelines (insert link)  
 - Show how **movement affects data quality**.  
-- Instruct participant to **stay still** during videos.  
+- Instruct participant to **stay still** during videos.
+- Instruct participant to complete questionnaires and knock on the table when they are complete  
 - **Turn off Biopac monitor screen.**  
-- **Start PsychoPy experiment.**  
-- **Turn off lights** and leave the room.
+- When questionnaires are complete **Start PsychoPy experiment.** 
 
 ---
 
@@ -164,22 +141,21 @@ Have the following ready:
 ---
 
 ### **Saving Biopac Data**
-1. Find **cycles** on:
-   - Digital Input Channel **23**
-   - Digital Input Channel **27**
-2. **Paste Event Summary** to journal.  
-3. **Save journal** as:
-   ```
-   Documents/My Documents/Carmen MD Instrumental Ereg/Data/
-   [participant_number]_onsets.xls
-   ```
-4. **Save graph** as:
-   ```
-   Documents/My Documents/Carmen MD Instrumental Ereg/Data/
-   [participant_number]_graph.gph
-   ```
-5. **Close Biopac** and **turn off Biopac machine.**
-6. Upload both files to Box:
+1. **Save raw datafile** as participantnumber_raw.acq
+
+2. Filter channels
+   - EDA -> Transform -> IIR -> Low Pass -> 10hz
+      - Edit -> Remove Waveform (of origional unfiltered data)
+   - ECG -> Transform -> IIR -> Low + High Pass -> 0.5 - 35hz
+      - Edit -> Remove Waveform (of origional unfiltered data)
+   - Respiration -> Transform -> IIR -> Low Pass -> 1hz
+      - Edit -> Remove Waveform (of origional unfiltered data)
+3. **Save filtered datafile** as participantnumber_filtered.acq
+4. Trim data from start and end of session
+   - Use cursor icon to select relevant section -> Edit -> Clear all
+5. **Save filtered and trimmed datafile** as participantnumber_filtered_chopped.acq
+6. **Close Biopac** and **turn off Biopac machine.**
+7. Upload both files to Box:
    > [Instrumental Emotion Regulation Physiology Box Folder](https://sussex.box.com/s/dag3yaunkvcbnsckbbqz1034mwj3bmz3)
 
 ---
@@ -193,7 +169,7 @@ Have the following ready:
 ## **8. After Session Administration**
 
 ### **File Storage**
-Store these forms in the **Pevensey I office filing cabinet**:
+Store these forms in the relevant folder in the S5 room:
 - Signed consent form  
 - Payment confirmation form  
 
