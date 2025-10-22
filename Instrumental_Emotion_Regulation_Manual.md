@@ -65,7 +65,7 @@ Have the following ready:
 
 ### **Electrocardiogram (ECG)**
 
-> [See detailed SOP here]([https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md])
+> [See detailed SOP here](https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md)
 
 #### **Explanation**
 > “A 3-lead electrocardiogram (ECG) is a non-invasive procedure that measures the electrical activity of the heart muscle.”
@@ -89,10 +89,10 @@ Have the following ready:
 
 ### **Respiration Belt**
 
-> [See detailed SOP here]([https://github.com/cmdaoust/Experimental-SOPs/blob/main/Respiration/RespiratoryEffort_SOP.md])
+> [See detailed SOP here](https://github.com/cmdaoust/Experimental-SOPs/blob/main/Respiration/RespiratoryEffort_SOP.md)
 
 #### **Explanation**
-> “The respiration belt records respiratory effort — in other words, your breathing.”
+> “The respiration belt records respiratory effort - in other words, your breathing.”
 
 #### **Procedure**
 1. Show **diagram** of placement.  
@@ -107,7 +107,7 @@ Have the following ready:
 
 ### **Electrodermal Activity (EDA)**
 
-> [See detailed SOP here]([https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md])
+> [See detailed SOP here](https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md)
 
 #### **Explanation**
 > “Electrodermal Activity (EDA) is a non-invasive measure of physiological arousal via skin sweat.”
@@ -165,13 +165,13 @@ Have the following ready:
 5. **Save filtered and trimmed datafile** as participantnumber_filtered_chopped.acq
 6. **Close Biopac** and **turn off Biopac machine.**
 7. Upload both files to Box:
-   > [Instrumental Emotion Regulation Physiology Box Folder](https://sussex.box.com/s/dag3yaunkvcbnsckbbqz1034mwj3bmz3)
+   > [Instrumental Emotion Regulation Physiology Box Folder](https://sussex.app.box.com/folder/303306815832)
 
 ---
 
 ### **Saving PsychoPy Data**
 - Upload PsychoPy data to:
-  > [Instrumental Emotion Regulation Physiology Box Folder](https://sussex.box.com/s/dag3yaunkvcbnsckbbqz1034mwj3bmz3)
+  > [Instrumental Emotion Regulation Physiology Box Folder](https://sussex.app.box.com/folder/306319842633)
 
 ---
 
@@ -184,4 +184,4 @@ Store these forms in the relevant folder in the S5 room:
 
 ### **Tracking**
 Update the **Participant Tracking document**:  
-> [Participant Tracking Box Folder](https://sussex.box.com/s/s0kzan0eygbwbe86yhamu2iu2l0joptk)
+> [Participant Tracking File](https://sussex.box.com/s/s0kzan0eygbwbe86yhamu2iu2l0joptk)
