@@ -5,10 +5,8 @@
 ## **1. Access and Setup**
 
 ### **Keys and Passwords**
-- Keys are in the leftmost drawer in the wet lab at the end of the hallway (marked **S5** and **A5**).  
-
-### **Power On**
-Turn on all computers and the Biopac machine.
+- Keys are in the leftmost drawer in the wet lab at the end of the hallway (marked **S5** and **A5**).
+  
 ---
 
 ## **2. Experimental Flow Overview**
@@ -24,7 +22,8 @@ Turn on all computers and the Biopac machine.
 
 #### **Room Setup**
 - Ensure **thermostat** is **on** and set to **23°C**.  
-- Dispose of any **rubbish** from previous sessions.  
+- Dispose of any **rubbish** from previous sessions.
+- Turn on all computers and the blue Biopac machine (on button is on the back at the bottom).  
 
 #### **Documents**
 Have the following ready:
@@ -36,12 +35,39 @@ Have the following ready:
 #### **Equipment**
 - **EL507A electrodes**  
 - **EL503 electrodes** 
-- **Spectra Electrode Gel** – confirm it’s available in the room
-- **BIOPAC isotonic GEL101a** – confirm it’s available in the room    
+- **Spectra Electrode Gel**
+- **BIOPAC isotonic GEL101a**
+- **Medical Tape& Scissors**     
 
 #### **Software**
 1. **Open PsychoPy experiment in the Stimulus PC**
    - Set **condition order** and **stimuli groups** according to the **project tracking sheet**.
+
+| Participant | Researcher | First Condition | Stimuli Group | Second Condition | Stimuli Group | Third Condition | Stimuli Group |
+|--------------|-------------|------------------|----------------|------------------|----------------|------------------|----------------|
+| 001 | Researcher&nbsp;Name | Control | group1 | Up | group2 | Down | group3 |
+| 006 | Researcher&nbsp;Name | Control | group2 | Up | group3 | Down | group1 |
+| 003 | Researcher&nbsp;Name | Control | group3 | Up | group1 | Down | group2 |
+| 007 | Researcher&nbsp;Name | Up | group1 | Down | group2 | Control | group3 |
+| 004 | Researcher&nbsp;Name | Up | group2 | Down | group3 | Control | group1 |
+| 008 | Researcher&nbsp;Name | Up | group3 | Down | group1 | Control | group2 |
+
+For example, if running participant 001, update code segment in LoopOrderCode to reflect that the first condition should be **Control**, second **UP** and third **Down**
+
+<p align="center">
+  <img src="../images/UpdateLoopOrder.png" alt="How to update loop order code" width="100%">
+  <br>
+  <em>Update Loop Order by clicking onf LoopOrderCode -> Code -> Unhash correct order and hash out old order.</em>
+</p>
+
+Then, click into control_trials and change groupx.xls file to reflet correct grouping. In thise case, group 1. Scrollto the right and do the same for up_trials and down_trials.
+
+   <p align="center">
+  <img src="../images/ConditionsUpdate.png" alt="How to update condition stimuli" width="100%">
+  <br>
+  <em>Update Update the stimuli shown in each conditions by clicking condition_trials -> groupx.xls </em>
+</p>
+
 2. **Open Biopac application** on the **recording computer**:
    - Open File from Disk -> 
      ```
