@@ -41,6 +41,9 @@ Have the following ready:
 
 #### **Software**
 1. **Open PsychoPy experiment in the Stimulus PC**
+     ```
+     This PC/Documents/Carmen_MD/Instrumental_emotion_reg/InstEmoReg/InstEmoRegCode.py
+     ```
    - Set **condition order** and **stimuli groups** according to the **project tracking sheet**.
 
 | Participant | Researcher | First Condition | Stimuli Group | Second Condition | Stimuli Group | Third Condition | Stimuli Group |
@@ -55,7 +58,7 @@ Have the following ready:
 For example, if running participant 001, update code segment in LoopOrderCode to reflect that the first condition should be **Control**, second **UP** and third **Down**
 
 <p align="center">
-  <img src="../images/UpdateLoopOrder.png" alt="How to update loop order code" width="100%">
+  <img src="/images/UpdateLoopOrder.png" alt="How to update loop order code" width="100%">
   <br>
   <em>Update Loop Order by clicking onf LoopOrderCode -> Code -> Unhash correct order and hash out old order.</em>
 </p>
@@ -63,7 +66,7 @@ For example, if running participant 001, update code segment in LoopOrderCode to
 Then, click into control_trials and change groupx.xls file to reflet correct grouping. In thise case, group 1. Scrollto the right and do the same for up_trials and down_trials.
 
    <p align="center">
-  <img src="../images/ConditionsUpdate.png" alt="How to update condition stimuli" width="100%">
+  <img src="/images/ConditionsUpdate.png" alt="How to update condition stimuli" width="100%">
   <br>
   <em>Update Update the stimuli shown in each conditions by clicking condition_trials -> groupx.xls </em>
 </p>
@@ -71,8 +74,7 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 2. **Open Biopac application** on the **recording computer**:
    - Open File from Disk -> 
      ```
-     Documents/My Documents/Carmen MD Instrumental Ereg/
-     instrumental_emotion_reg_template_01.gtl
+     Documents/My Documents/Carmen MD/Data/instrumental_emotion_reg_template_01.gtl
      ```
 3. **Open questionnaire link** -> Chrome -> Bookmarks -> Qualtrics
 ---
