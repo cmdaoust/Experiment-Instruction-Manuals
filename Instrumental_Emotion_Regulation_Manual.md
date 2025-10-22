@@ -55,7 +55,7 @@ Have the following ready:
 | 004 | Researcher&nbsp;Name | Up | group2 | Down | group3 | Control | group1 |
 | 008 | Researcher&nbsp;Name | Up | group3 | Down | group1 | Control | group2 |
 
-For example, if running participant 001, update code segment in LoopOrderCode to reflect that the first condition should be **Control**, second **UP** and third **Down**
+For example, if running participant 001, update code segment in LoopOrderCode to reflect that the first condition should be **Control**, second **Up** and third **Down**
 
 <p align="center">
   <img src="/images/UpdateLoopOrder.png" alt="How to update loop order code" width="100%">
