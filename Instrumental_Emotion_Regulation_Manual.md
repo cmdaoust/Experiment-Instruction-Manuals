@@ -63,7 +63,7 @@ For example, if running participant 001, update code segment in LoopOrderCode to
   <em>Update Loop Order by clicking onf LoopOrderCode -> Code -> Unhash correct order and hash out old order.</em>
 </p>
 
-Then, click into control_trials and change groupx.xls file to reflet correct grouping. In thise case, group 1. Scrollto the right and do the same for up_trials and down_trials.
+Then, click into control_trials and change groupx.xls file to reflet correct grouping. In thise case, Control should be group 1. Scroll to the right and do the same for up_trials (group2) and down_trials (group3).
 
    <p align="center">
   <img src="/images/ConditionsUpdate.png" alt="How to update condition stimuli" width="100%">
