@@ -44,7 +44,7 @@ Have the following ready:
      ```
      This PC/Documents/Carmen_MD/Instrumental_emotion_reg/InstEmoReg/InstEmoRegCode.py
      ```
-   - Set **condition order** and **stimuli groups** according to the **project tracking sheet**.
+   - Set **condition order** and **stimuli groups** according to the [Participant Tracking File](https://sussex.box.com/s/s0kzan0eygbwbe86yhamu2iu2l0joptk)
 
 | Participant | Researcher | First Condition | Stimuli Group | Second Condition | Stimuli Group | Third Condition | Stimuli Group |
 |--------------|-------------|------------------|----------------|------------------|----------------|------------------|----------------|
