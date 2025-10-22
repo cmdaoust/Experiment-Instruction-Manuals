@@ -64,6 +64,9 @@ Have the following ready:
 ## **5. Hook-Up Procedure**
 
 ### **Electrocardiogram (ECG)**
+
+> [See detailed SOP here]([https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md])
+
 #### **Explanation**
 > “A 3-lead electrocardiogram (ECG) is a non-invasive procedure that measures the electrical activity of the heart muscle.”
 
@@ -85,6 +88,9 @@ Have the following ready:
 ---
 
 ### **Respiration Belt**
+
+> [See detailed SOP here]([https://github.com/cmdaoust/Experimental-SOPs/blob/main/Respiration/RespiratoryEffort_SOP.md])
+
 #### **Explanation**
 > “The respiration belt records respiratory effort — in other words, your breathing.”
 
@@ -100,6 +106,9 @@ Have the following ready:
 ---
 
 ### **Electrodermal Activity (EDA)**
+
+> [See detailed SOP here]([https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md])
+
 #### **Explanation**
 > “Electrodermal Activity (EDA) is a non-invasive measure of physiological arousal via skin sweat.”
 
