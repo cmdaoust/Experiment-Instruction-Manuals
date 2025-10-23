@@ -2,21 +2,14 @@
 
 ---
 
-## **1. Access and Setup**
-
-### **Keys and Passwords**
-- Keys are in the leftmost drawer in the wet lab at the end of the hallway (marked **S5** and **A5**).
-  
----
-
-## **2. Experimental Flow Overview**
+## **Experimental Flow Overview**
 
 **Order of Procedure:**
 > Forms → Walk Through Experiment → Electrode Hook-Up → Questionnaires → Experiment → Debrief
 
 ---
 
-## **3. Pre-Session Checklist**
+## **Pre-Session Checklist**
 
 ### **Before the Participant Arrives**
 
@@ -37,7 +30,7 @@ Have the following ready:
 - **EL503 electrodes** 
 - **Spectra Electrode Gel**
 - **BIOPAC isotonic GEL101a**
-- **Medical Tape& Scissors**     
+- **Medical Tape & Scissors**     
 
 #### **Software**
 1. **Open PsychoPy experiment in the Stimulus PC**
@@ -55,7 +48,7 @@ Have the following ready:
 | 004 | Researcher&nbsp;Name | Up | group2 | Down | group3 | Control | group1 |
 | 008 | Researcher&nbsp;Name | Up | group3 | Down | group1 | Control | group2 |
 
-For example, if running participant 001, update code segment in LoopOrderCode to reflect that the first condition should be **Control**, second **Up** and third **Down**
+For example, if running participant 001, update code segment in LoopOrderCode to reflect that the first condition should be **Control**, second **Up** and third **Down**. Do this by inserting a # in front of all redundant orders and removing the preceeding # from the desired order.
 
 <p align="center">
   <img src="/images/UpdateLoopOrder.png" alt="How to update loop order code" width="100%">
@@ -71,21 +64,24 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
   <em>Update Update the stimuli shown in each conditions by clicking condition_trials -> groupx.xls </em>
 </p>
 
-2. **Open Biopac application** on the **recording computer**:
+2. **Open questionnaire link** -> Chrome -> Bookmarks -> Qualtrics
+   - Input participant ID from [Participant Tracking File](https://sussex.box.com/s/s0kzan0eygbwbe86yhamu2iu2l0joptk)
+
+4. **Open Biopac application** on the **recording PC**:
    - Open File from Disk -> 
      ```
-     Documents/My Documents/Carmen MD/Data/instrumental_emotion_reg_template_01.gtl
+     Documents/My Documents/Carmen MD/Data/instrumental_emotion_reg_template_01.acq
      ```
-3. **Open questionnaire link** -> Chrome -> Bookmarks -> Qualtrics
+
+5. **Set up Avica Screen Mirroring*** by opening the application on the recording PC and on the PC in room S5. Type the code from the recording PC into the one in room S5 and press connect. You should be able to remotely access the recording PC from the S5 cubicle. 
 ---
 
-## **4. Participant Arrival**
+## **Participant Arrival**
 
-### **Before Entering the Testing Cubicle**
-1. Ask the participant to **store belongings in S5**.  
-2. Ask the participant to sit in A5, have them **read and sign** the **information sheet** and **consent form**.  
-3. Check that the **consent form is signed on the back**.  
-4. Ask if participant needs to **use the bathroom** (it’s difficult to disconnect/reconnect after setup).
+1. Ask the participant to **store belongings in S5**.
+2. Ask if participant needs to **use the bathroom** (it’s difficult to disconnect/reconnect electrtodes after setup).  
+3. Ask the participant to sit in A5, have them **read and sign** the **information sheet** and **consent form**.  
+4. Check that the **consent form is signed on the back**.  
 
 ---
 
@@ -104,8 +100,8 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 - Wrap used razors in **paper and tape** before discarding in **general waste**.
 
 #### **Electrode Placement**
-- Peel 3 ECG electrodes from the backing and inspect. Add a small amount of additional get if necessary
-- Instruct participant to attch 3 electrodes according to the diagram on the wall
+- Peel 3 ECG electrodes from the backing and inspect. Add a small amount of additional Spectra 360 gel if necessary.
+- Instruct participant to attch 3 electrodes according to the diagram on the wall.
 
 #### **Attaching Electrode Leads**
 1. **VIN- (white):** under right clavicle, midclavicular line.  
@@ -113,6 +109,10 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 3. **VIN+ (red):** lower left abdomen.  
 4. Secure leads and route through clothing.
 
+- Once electrodes are wired up, ask the participant to clip the leads to the top of their trousers using the crocodile clip.
+
+- Carry out signal check on Biopac
+  
 ---
 
 ### **Respiration Belt**
@@ -128,8 +128,9 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 3. Strap belt **around chest**, above clothing.  
 4. Instruct participant to:
    - **Exhale completely** → tighten belt (no looseness).  
-   - **Inhale fully** → ensure **slight resistance** at full inhalation.  
+   - **Inhale fully** → ensure ** resistance** at full inhalation.  
 5. Participant **sits down** in the testing chair.
+6. Carry out signal check on Biopac
 
 ---
 
@@ -141,34 +142,36 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 > “Electrodermal Activity (EDA) is a non-invasive measure of physiological arousal via skin sweat.”
 
 #### **Procedure**
-1. Show **diagram** of electrode placement.    
-2. Attach electrodes to first and index finger of left hand.  
-3. Secure with tape
+1. Show **diagram** of electrode placement.
+2. Peel 2 EDA electrodes from the backing and inspect. Add a small amount of additional Isotonic gel if necessary.  
+3. Attach electrodes to first and index finger of left hand.  
+4. Secure with tape
+5. Carry out signal check on Biopac
 
 ---
 
 ## **6. Final Pre-Experiment Checks**
-- **Press Play** on Biopac → confirm data is recording.
-- Perform signal quality checks according to SOP guidelines (insert link)  
+- **Press Start** on Biopac → confirm data is recording.
+- Perform signal quality checks according to SOP guidelines [EDA](https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md)  [ECG](https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md) > [Respiration](https://github.com/cmdaoust/Experimental-SOPs/blob/main/Respiration/RespiratoryEffort_SOP.md)   
 - Show how **movement affects data quality**.  
 - Instruct participant to **stay still** during videos.
-- Instruct participant to complete questionnaires and knock on the table when they are complete  
-- **Turn off Biopac monitor screen.**  
-- When questionnaires are complete **Start PsychoPy experiment.** 
+- Instruct participant to complete questionnaires and knock on the table when they are complete.
+- Turn off Biopac monitor screen.
+
+## **7. Post-questionnaire"
+-  **Start PsychoPy experiment**, when participant ID box appers, insert participant ID from [Participant Tracking File](https://sussex.box.com/s/s0kzan0eygbwbe86yhamu2iu2l0joptk)
 
 ---
 
-## **7. After the Experiment**
+## **8. After the Experiment**
 
 ### **Removing Equipment**
 1. **Stop Biopac recording.**  
 2. Ask participant to:
-   - Remove **headphones**.  
-   - Unclip **EDA electrodes** and remove pads.  
-3. Researcher:
-   - Unvelcro **respiration belt** and remove it.  
-4. Participant removes **ECG electrodes** and pads.
-
+   - Remove headphones.  
+   - Unclip leads and electrodes.  
+   - Unvelcro **respiration belt** and remove it.
+3. Hang leads back on hooks.
 ---
 
 ### **Paperwork**
@@ -181,13 +184,13 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 1. **Save raw datafile** as participantnumber_raw.acq
 
 2. Filter channels
-   - EDA -> Transform -> IIR -> Low Pass -> 10hz
+   - EDA -> Transform -> Digital Filter -> IIR -> Low Pass -> 10hz
       - Edit -> Remove Waveform (of origional unfiltered data)
-   - ECG -> Transform -> IIR -> Low + High Pass -> 0.5 - 35hz
+   - ECG -> Transform -> Digital Filter -> IIR -> Band Pass Low + High  -> 0.5 - 35hz
       - Edit -> Remove Waveform (of origional unfiltered data)
-   - Respiration -> Transform -> IIR -> Low Pass -> 1hz
+   - Respiration -> Transform -> Digital Filter -> IIR -> Low Pass -> 1hz
       - Edit -> Remove Waveform (of origional unfiltered data)
-3. **Save filtered datafile** as participantnumber_filtered.acq
+3. **Save filtered data file** as participantnumber_filtered.acq
 4. Trim data from start and end of session
    - Use cursor icon to select relevant section -> Edit -> Clear all
 5. **Save filtered and trimmed datafile** as participantnumber_filtered_chopped.acq
@@ -199,7 +202,11 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 
 ### **Saving PsychoPy Data**
 - Upload PsychoPy data to:
-  > [Instrumental Emotion Regulation Physiology Box Folder](https://sussex.app.box.com/folder/306319842633)
+  > [Instrumental Emotion Regulation Psychopy Box Folder](https://sussex.app.box.com/folder/306319842633)
+  > Data files can be found in
+     ```
+     This PC/Documents/Carmen_MD/Instrumental_emotion_reg/InstEmoReg/data/
+     ```
 
 ---
 
