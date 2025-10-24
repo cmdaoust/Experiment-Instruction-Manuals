@@ -152,7 +152,7 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 
 ## **6. Final Pre-Experiment Checks**
 - **Press Start** on Biopac → confirm data is recording.
-- Perform signal quality checks according to SOP guidelines [EDA](https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md)  [ECG](https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md) > [Respiration](https://github.com/cmdaoust/Experimental-SOPs/blob/main/Respiration/RespiratoryEffort_SOP.md)   
+- Perform signal quality checks according to SOP guidelines [EDA](https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md)  [ECG](https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md) [Respiration](https://github.com/cmdaoust/Experimental-SOPs/blob/main/Respiration/RespiratoryEffort_SOP.md)   
 - Show how **movement affects data quality**.  
 - Instruct participant to **stay still** during videos.
 - Instruct participant to complete questionnaires and knock on the table when they are complete.
