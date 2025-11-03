@@ -92,7 +92,7 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 > [See detailed SOP here](https://github.com/cmdaoust/Experimental-SOPs/blob/main/ECG/ECG_SOP.md)
 
 #### **Explanation**
-> “A 3-lead electrocardiogram (ECG) is a non-invasive procedure that measures the electrical activity of the heart muscle.”
+> “A electrocardiogram (ECG) measures the electrical activity of the heart muscle, which can tell us how fast or slow your heart is beating.”
 
 #### **Preparation**
 - Show **diagram** of electrode placement and explain connections.  
@@ -102,16 +102,16 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 #### **Electrode Placement**
 - Peel 3 ECG electrodes from the backing and inspect. Add a small amount of additional Spectra 360 gel if necessary.
 - Instruct participant to attch 3 electrodes according to the diagram on the wall.
+- Participants can feel stressed at this stage - make them feel relaxed by reassuring them that the placement doesn't have to be exactly identical to the diagram. Guide them to the correct placement if necessary. 
 
 #### **Attaching Electrode Leads**
-1. **VIN- (white):** under right clavicle, midclavicular line.  
-2. **GND (black):** lower right abdomen.  
-3. **VIN+ (red):** lower left abdomen.  
-4. Secure leads and route through clothing.
+1. **VIN- (white):** under right collar bone, mid way along the collar bone.  
+2. **GND (black):** lower right abdomen, just under ribcage.  
+3. **VIN+ (red):** lower left abdomen, just under ribcage.  
 
 - Once electrodes are wired up, ask the participant to clip the leads to the top of their trousers using the crocodile clip.
 
-- Carry out signal check on Biopac
+- **Carry out signal check on Biopac**
   
 ---
 
@@ -128,7 +128,7 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 3. Strap belt **around chest**, above clothing.  
 4. Instruct participant to:
    - **Exhale completely** → tighten belt (no looseness).  
-   - **Inhale fully** → ensure ** resistance** at full inhalation.  
+   - **Inhale fully** → ensure **resistance** at full inhalation.  
 5. Participant **sits down** in the testing chair.
 6. Carry out signal check on Biopac
 
@@ -139,7 +139,7 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 > [See detailed SOP here](https://github.com/cmdaoust/Experimental-SOPs/blob/main/EDA/EDA_SOP.md)
 
 #### **Explanation**
-> “Electrodermal Activity (EDA) is a non-invasive measure of physiological arousal via skin sweat.”
+> “Electrodermal Activity (EDA) is measures how electrically conductive your skin is, which is affected by how much sweat there is on the skin.”
 
 #### **Procedure**
 1. Show **diagram** of electrode placement.
