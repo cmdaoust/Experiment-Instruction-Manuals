@@ -158,7 +158,7 @@ Then, click into control_trials and change groupx.xls file to reflet correct gro
 - Instruct participant to complete questionnaires and knock on the table when they are complete.
 - Turn off Biopac monitor screen.
 
-## **7. Post-questionnaire"
+## **7. Post-questionnaire**
 -  **Start PsychoPy experiment**, when participant ID box appers, insert participant ID from [Participant Tracking File](https://sussex.box.com/s/s0kzan0eygbwbe86yhamu2iu2l0joptk)
 
 ---
